@@ -1,0 +1,131 @@
+body {
+  font-size: 14px;
+  font-family: "Courier New", Courier, monospace;
+  
+}
+
+header {
+  background-color: #f8d095;
+  padding: 20px 20px;
+}
+
+.topo {
+  width: 940px;
+  height: 5em;
+  position: relative;
+}
+
+.logo {
+  width: 90px;
+  position: absolute;
+  top: -7px;
+}
+
+#titulo {
+  color: #af440a;
+  font-weight: bold;
+  font-size: 2em;
+  position: absolute;
+  top: 25px;
+  left: 110px;
+}
+
+#subtitulo {
+  color: black;
+  font-size: 1.2em;
+  position: absolute;
+  top: 50px;
+  left: 200px;
+}
+
+nav {
+  position: absolute;
+  right: 40px;
+  top: 50px;
+}
+
+nav li {
+  display: inline;
+  font-size: 1.5em;
+  padding-right: 20px;
+}
+
+a {
+  color: #d66f36;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #af440a;
+  text-decoration: none;
+}
+
+main {
+  background-color: #f8d095;
+  padding-bottom: 5%;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 140px;
+  font-weight: bold;
+}
+
+h2 {
+  padding-top: 8px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.banner {
+  width: 100%;
+  height: 70%;
+}
+
+
+.hamb img {
+	width: 20%;
+	margin-top: 5%;
+	margin-left: 9%;
+	margin-bottom: 1%;
+	border-radius: 35%;
+	border: 2px solid;
+	border-color: grey;
+}
+
+.hamb a:hover img {
+	border-color: blue; 
+}
+
+.hamb h2 {
+	text-align: left;
+	margin-left: 14%;
+	margin-right: 6%;
+	display: inline;
+}
+
+.hamb h3 {
+	display: inline;
+	font-size: 170%;
+	margin-left: 15%;
+	margin-right: 7.5%;
+}
+
+footer {
+  background: black;
+  text-align: center;
+
+  padding-top: 40px;
+  height: 5em;
+}
+
+.ICOrodape {
+  width: 25px;
+}
+
+footer p {
+  color: white;
+}

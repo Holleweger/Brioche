@@ -1,0 +1,119 @@
+body {
+  font-size: 14px;
+  font-family: "Courier New", Courier, monospace;
+  
+}
+
+header {
+  background-color: #f8d095;
+  padding: 20px 20px;
+}
+
+.topo {
+  width: 940px;
+  height: 5em;
+  position: relative;
+}
+
+.logo {
+  width: 90px;
+  position: absolute;
+  top: -7px;
+}
+
+#titulo {
+  color: #af440a;
+  font-weight: bold;
+  font-size: 2em;
+  position: absolute;
+  top: 25px;
+  left: 110px;
+}
+
+#subtitulo {
+  color: black;
+  font-size: 1.2em;
+  position: absolute;
+  top: 50px;
+  left: 200px;
+}
+
+nav {
+  position: absolute;
+  right: 40px;
+  top: 50px;
+}
+
+nav li {
+  display: inline;
+  font-size: 1.5em;
+  padding-right: 20px;
+}
+
+a {
+  color: #d66f36;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #af440a;
+  text-decoration: none;
+}
+
+main {
+  background-color: #f8d095;
+  padding-bottom: 3%;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  font-weight: bold;
+}
+
+input {
+  text-align: center;
+  width: 30%;
+  margin-top: 1%;
+  margin-left: 36%;
+}
+
+button {
+  padding: 3% 3%;
+  width: 25%;
+  margin-top: 3%;
+  margin-left: 38%;
+  border-radius: 100%;
+  font-size: 200%;
+}
+
+button:hover {
+  color: blue;
+  border-color: blue;
+}
+
+
+
+.banner {
+  width: 100%;
+  height: 70%;
+}
+
+footer {
+  background: black;
+  text-align: center;
+
+  padding-top: 40px;
+  height: 5em;
+}
+
+.ICOrodape {
+  width: 25px;
+}
+
+footer p {
+  color: white;
+}
